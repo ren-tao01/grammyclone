@@ -6,7 +6,7 @@ import {
   SkeletonCircle,
   Skeleton,
 } from "@chakra-ui/react";
-import FeedPost from "./FeedPosts";
+import FeedPost from "./FeedPost";
 import { useEffect, useState } from "react";
 
 const Feed = () => {
