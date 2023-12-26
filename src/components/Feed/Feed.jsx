@@ -6,10 +6,10 @@ import {
   SkeletonCircle,
   Skeleton,
 } from "@chakra-ui/react";
-import FeedPost from "./FeedPost";
+import { FeedPost } from "./FeedPost";
 import { useEffect, useState } from "react";
 
-const Feed = () => {
+export const Feed = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -58,5 +58,3 @@ const Feed = () => {
     </Container>
   );
 };
-
-export default Feed;
