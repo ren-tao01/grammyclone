@@ -13,7 +13,7 @@ import {
 import { AiFillHome } from "react-icons/ai";
 import { BiLogOut } from "react-icons/bi";
 
-const Sidebar = () => {
+export const Sidebar = () => {
   const sideBarItems = [
     { icon: <AiFillHome size={25} />, text: "Home", link: "/" },
     { icon: <SearchLogo />, text: "Search" },
@@ -120,4 +120,3 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
