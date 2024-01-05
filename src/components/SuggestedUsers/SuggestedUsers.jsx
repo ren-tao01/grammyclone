@@ -23,21 +23,9 @@ export const SuggestedUsers = () => {
         </Text>
       </Flex>
 
-      <SuggestedUser
-        name="Dan Steven"
-        followers={3891}
-        avatar="https://bit.ly/dan-abramov"
-      />
-      <SuggestedUser
-        name="Dan Steven"
-        followers={3891}
-        avatar="https://bit.ly/dan-abramov"
-      />
-      <SuggestedUser
-        name="Dan Steven"
-        followers={3891}
-        avatar="https://bit.ly/dan-abramov"
-      />
+      <SuggestedUser name="Peter Wok" followers={707} avatar="/peter-pan.jpeg" />
+      <SuggestedUser name="James Done" followers={3891} avatar="" />
+      <SuggestedUser name="Dannis Bell" followers={3891} avatar="" />
 
       {/* target = _blank; is for opening new tab */}
       <Box alignSelf={"start"} fontSize={12} color={"gray.500"} mt={5}>

@@ -24,7 +24,7 @@ export const Sidebar = () => {
     {
       icon: <Avatar size={"sm"} name="Barracks" src="profilepic.png" />,
       text: "Profile",
-      link: "asapresident",
+      link: "lil_samurai",
     },
   ];
   return (

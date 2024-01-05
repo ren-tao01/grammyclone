@@ -23,7 +23,7 @@ export const ProfileHeader = () => {
         <Avatar
           name="As a President"
           src="/profilepic.png"
-          alt="As a president logo"
+          alt="Litlle samurai pic"
         ></Avatar>
       </AvatarGroup>
       <VStack alignItems={"start"} gap={2} mx={"auto"} flex={1}>
@@ -34,7 +34,7 @@ export const ProfileHeader = () => {
           alignItems={"center"}
           w={"full"}
         >
-          <Text fontSize={{ base: "sm", md: "lg" }}>asapresident_</Text>
+          <Text fontSize={{ base: "sm", md: "lg" }}>lil_samurai</Text>
 
           <Flex gap={4} alignItems={"center"} justifyContent={"center"}>
             <Button
@@ -71,7 +71,7 @@ export const ProfileHeader = () => {
 
         <Flex alignItems={"center"} gap={4}>
           <Text fontSize={"sm"} fontWeight={"bold"}>
-            As a President
+            Real Name is None
           </Text>
         </Flex>
         <Text fontSize={"sm"}>

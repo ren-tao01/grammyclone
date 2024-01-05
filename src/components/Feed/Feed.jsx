@@ -39,8 +39,8 @@ export const Feed = () => {
       {!isLoading && (
         <>
           <FeedPost
-            img="/jenimg2.jpg"
-            username="jennie"
+            img="/jenimg1.jpg"
+            username="jennierubyjane"
             avatar="/jenimg2.jpg"
           />
           <FeedPost
@@ -50,7 +50,7 @@ export const Feed = () => {
           />
           <FeedPost
             img="/jenimg2.jpg"
-            username="jennie"
+            username="jennierubyjane"
             avatar="/jenimg2.jpg"
           />
         </>

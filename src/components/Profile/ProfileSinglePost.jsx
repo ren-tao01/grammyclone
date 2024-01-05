@@ -106,7 +106,7 @@ export const ProfileSinglePost = ({ img }) => {
                       name="As a President"
                     />
                     <Text fontWeight={"bold"} fontSize={12}>
-                      asapresident_
+                      lil_samurai
                     </Text>
                   </Flex>
 
@@ -129,7 +129,7 @@ export const ProfileSinglePost = ({ img }) => {
                 >
                   <Comment
                     createdAt="1d ago"
-                    username="asapresident_"
+                    username="lil_samurai"
                     profilePic="/profilepic.png"
                     text={"Dummy images from unsplash"}
                   />
